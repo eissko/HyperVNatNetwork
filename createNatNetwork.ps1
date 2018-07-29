@@ -13,3 +13,4 @@ New-NetNat -Name $NetNatName -InternalIPInterfaceAddressPrefix $Net -Verbose
 ##New-NetIPAddress -IPAddress 10.1.1.100 -DefaultGateway 10.1.1.1 -PrefixLength 24 -InterfaceIndex $ifIndex 
 ##get-NetFirewallRule | Where-Object {$_.DisplayName -like "File and Printer Sharing (Echo Request - ICMPv4-In)" | Enable-NetFirewallRule
 ##Set-DnsClientServerAddress -ServerAddresses 10.1.1.1 -InterfaceIndex $ifIndex
+#
